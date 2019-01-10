@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00a4e3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#0021b5</color>
+    <color name="bg_gradient_end">#008cb4</color>
+    <color name="primary_color">#FFC107</color>
+    <color name="primary_color_dark">#FFA000</color>
+    <color name="background_color">#fcfcfc</color>
+    <color name="light_gray_line">#ededed</color>
+    <color name="deep_purple">#7c4dff</color>
+    <color name="material_yellow">#ffb300</color>
+    <color name="material_green">#00bfa5</color>
+    <color name="pink_accent">#ff4081</color>
+    <color name="backgroudnbirumuda">#00bbd4</color>
+</resources>

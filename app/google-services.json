@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141168086787",
+    "firebase_url": "https://inibudi-23fe3.firebaseio.com",
+    "project_id": "inibudi-23fe3",
+    "storage_bucket": "inibudi-23fe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141168086787:android:0467b4da2973f1f1",
+        "android_client_info": {
+          "package_name": "com.bb37kreatif.www.inibudi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141168086787-8mins1qdn18jt189cqp2d9h39ncqmeop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bb37kreatif.www.inibudi2",
+            "certificate_hash": "a9bb2d89351346214b3e71c62806eaaf273f1a2a"
+          }
+        },
+        {
+          "client_id": "141168086787-cc12bmjamd35btnis7gde8i3eahi4n8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzVEODKuYJoonqlBFeaCDBf2EEg5SRrHA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141168086787-cc12bmjamd35btnis7gde8i3eahi4n8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

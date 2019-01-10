@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".menuikan"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/wallpapermenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PILIH JENIS IKAN "
+            android:gravity="center"
+            android:textSize="29dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="101dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/wallpapermenu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:background="@drawable/wallpapermenu"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundbiru"
+                    android:padding="10dp"
+                    android:src="@drawable/ikan_gurame" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ikan_gurame"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/wallpapermenu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/wallpapermenu">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundbiru"
+                    android:padding="10dp"
+                    android:src="@drawable/ikan_mas" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ikan Mas"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/wallpapermenu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/wallpapermenu">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundbiru"
+                    android:padding="10dp"
+                    android:src="@drawable/ikan_lele" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ikan_Lele"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="103dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/wallpapermenu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/wallpapermenu"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundbiru"
+                    android:padding="10dp"
+                    android:src="@drawable/ikan_patin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ikan Patin"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="122dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="156dp"
+            android:layout_height="108dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/wallpapermenu">
+
+            <LinearLayout
+                android:layout_width="156dp"
+                android:layout_height="115dp"
+                android:background="@drawable/wallpapermenu"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundbiru"
+                    android:padding="10dp"
+                    android:src="@drawable/ikan_nila" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ikan_Nila"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
